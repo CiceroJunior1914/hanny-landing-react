@@ -25,8 +25,8 @@ const serif = "'Cormorant Garamond', Georgia, serif";
 const sans = "'Manrope', system-ui, sans-serif";
 const mono = "'IBM Plex Mono', ui-monospace, monospace";
 
-const PHOTO_HERO = "/assets/hanny-consultorio.png";
-const PHOTO_SOBRE = "/assets/hanny-atendimento.png";
+const PHOTO_HERO = `${import.meta.env.BASE_URL}assets/hanny-consultorio.png`;
+const PHOTO_SOBRE = `${import.meta.env.BASE_URL}assets/hanny-atendimento.png`;
 const WHATSAPP = "https://wa.me/5511951140220";
 
 const NAV = [
